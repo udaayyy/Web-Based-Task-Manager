@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jira Clone</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="colors">
+            <div class="orange"></div>
+            <div class="pink"></div>
+            <div class="lightgreen"></div>
+            <div class="lightblue"></div>
+        </div>
+        <div class="buttons">
+            <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+            <div class="remove-btn"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+    </div>
+
+    <div class = "main-cont"></div>
+
+    <!--MAIN PART OF CODE-->
+    <div class="modal-cont">
+        <textarea class="textarea-cont" placeholder="Enter Your Task..."></textarea>
+        <div class="colorswin">
+            <div class="orange priority-color"></div>
+            <div class="pink priority-color"></div>
+            <div class="lightgreen priority-color"></div>
+            <div class="lightblue priority-color active"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@5.2.0/dist/short-unique-id.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
